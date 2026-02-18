@@ -30,7 +30,7 @@ useHead({
         "name": "Cíntia Mendes Advocacia e Consultoria Jurídica",
         "image": image,
         "url": url,
-        "telephone": "+5531994394524",
+        "telephone": "+5531984394524",
         "email": "cintiamendes12.adv@gmail.com",
         "address": {
           "@type": "PostalAddress",
