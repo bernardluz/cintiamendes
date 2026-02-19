@@ -437,14 +437,14 @@ p {
     max-width: var(--container-width);
     margin: 0 auto;
     padding: 120px 24px 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
 .hero-text {
-    max-width: 580px;
+    max-width: 800px;
 }
 
 .hero-badge {
@@ -488,6 +488,7 @@ p {
 
 .hero-actions {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
     margin-bottom: 48px;
@@ -1267,7 +1268,6 @@ p {
 /* ── Responsive ── */
 @media (max-width: 1024px) {
     .hero-content {
-        grid-template-columns: 1fr;
         text-align: center;
     }
 
@@ -1283,9 +1283,6 @@ p {
         justify-content: center;
     }
 
-    .hero-image {
-        display: none;
-    }
 
     .services-grid {
         grid-template-columns: repeat(2, 1fr);

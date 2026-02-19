@@ -36,13 +36,6 @@
         </div>
 
       </div>
-
-      <div class="hero-image">
-        <div class="hero-image-wrapper">
-          <img src="/hero_advogada.jpg" alt="Dra. Cíntia Mendes - Advogada especialista em Direito Bancário" loading="eager">
-          <div class="hero-image-accent"></div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
